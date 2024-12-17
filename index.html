@@ -1,0 +1,747 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="imagenes_instituto/encabezado/logo_instituto_modificado.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="inscripciones.html">
+    
+    
+    <title>I.E.S. "Nuevo Horizonte"</title>
+</head>
+<body class="body">
+  <header class="mb-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top animate__animated animate__backInRight">
+        <div class="container">
+            <!-- Logo e Instituto -->
+            <img src="imagenes_instituto/encabezado/logo_instituto_modificado.jpg" alt="Logo Instituto" class="logo">
+            <a href="#" class="navbar-brand">
+                <span class="text-success">Instituto de Educacion Superior</span> "Nuevo Horizonte"
+            </a>
+  
+            <!-- Botón Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-start" aria-controls="navbar-start" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <!-- Menú colapsable -->
+            <div class="collapse navbar-collapse" id="navbar-start">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <!-- Elementos del menú -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link btn btn-outline-success me-2">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="instituto.html" class="nav-link btn btn-outline-success me-2">El Instituto</a>
+                    </li>
+                    <li class="nav-item dropdown" data-bs-theme="dark">
+                        <a class="nav-link dropdown-toggle btn btn-outline-success me-2" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Carreras
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Carreras/salud.html">Área Salud</a></li>
+                            <li><a class="dropdown-item" href="Carreras/informatica.html">Área Informática</a></li>
+                            <li><a class="dropdown-item" href="Carreras/informatica.html">Área Ciencias Sociales y Humanidades</a></li>
+                            <li><a class="dropdown-item" href="Carreras/informatica.html">Área Gastronomía y Cultura</a></li>
+                            <li><a class="dropdown-item" href="Carreras/informatica.html">Área Deportes y Actividad Física</a></li>
+                            <li><a class="dropdown-item" href="Carreras/informatica.html">Área Administración y Finanzas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="inscripciones.html" class="nav-link btn btn-outline-success me-2">Inscripciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link btn btn-outline-success me-2">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="https://accounts.google.com/AccountChooser/signinchooser?service=CPanel&continue=https%3A%2F%2Fadmin.google.com%2Fctech.mx%2FDashboard&hl=es&ddm=1&flowName=GlifWebSignIn&flowEntry=AccountChooser" target="_blank" class=" nav-link text-black  btn btn-warning me-2">Inicio de Sesion</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </header>
+  <main>
+    <section class="section animate__animated animate__zoomIn position-relative">
+      <div class="container-fluid p-0">
+        <!-- Imagen de fondo -->
+        <div class="col-md-12">
+          <img src="imagenes_instituto/instituto/foto-portada-cortada.jpg" 
+               alt="" class="img-fluid w-100">
+          <!-- Tarjeta centrada -->
+          <div class="card tarjeta-bienvenida text-center position-absolute top-50 start-50 translate-middle" 
+               style="background-color: rgba(0, 0, 0, 0.5); border: none; color: white;">
+            <div class="card-body px-3 px-md-4">
+              <h3 class="card-title">Bienvenidos al Instituto de Educacion Superior "Nuevo Horizonte"</h3>
+              <p class="card-text fs-5">
+                Una propuesta educativa de enseñanza terciaria centrada en el desarrolo de competencias y aptitudes de nuestros alumnos.
+              </p>
+              <a href="#nosotros" class="btn btn-outline-success">Más información</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <br>
+  <hr class="centered-hr-1 border border-2 border-black">
+  <!-- Sección "Sobre Nosotros" -->
+  <section class="animate__animated animate__backInLeft" id="nosotros">
+    <div class="container text-center text-black mt-4">
+      <h2 class="mb-3">Sobre Nosotros</h2>
+      <br>
+      <p class="text-black text-center">
+        Somos una institución con mas de  30 años acompañando a alumnos y padres en el cumplimiento de sueños y objetivos.
+      </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <hr class="centered-hr border border-2 border-warning">
+          <h4 class="text-center text-black">Comunidad</h4>
+          <br>
+          <p>
+            El 1º de julio de 2012 nace el Instituto de Educacion Superior "Nuevo Horizonte" como nivel terciario, anexando el C.F.P. "Nuevo Horizonte" en el edificio situado en la calle Manuel Castellanos 323 en la localidad de San Salvador de Jujuy, con instalaciones acordes con las necesidades de nuestros alumnos.
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <hr class="centered-hr border border-2 border-primary">
+          <h4 class="text-center text-black">Visión</h4>
+          <br>
+          <p>
+            La primordial finalidad del Instituto es garantizar el desarrollo integral de los alumnos en todas las carreras, a traves de un proceso continuo de aprendizaje, promoviendo valores y conocimientos.
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <hr class="centered-hr border border-2 border-warning">
+          <h4 class="text-center text-black">Misión</h4>
+          <br>
+          <p>
+            Incentivar por el intercambio de ideas, investigaciones, trabajo en grupo, el aprendizaje de idiomas, expresión corporal y plástica, tecnología por medio de la informatica.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Imagen 1 -->
+        <div class="col-md-2">
+          <img src="imagenes_instituto/instituto/foto-1.jpg" alt="Foto 1" class="img-fluid">
+        </div>
+        <!-- Imagen 2 -->
+        <div class="col-md-2">
+          <img src="imagenes_instituto/instituto/foto-2.jpg" alt="Foto 2" class="img-fluid">
+        </div>
+        <!-- Imagen 3 -->
+        <div class="col-md-2">
+          <img src="imagenes_instituto/instituto/foto-3.jpg" alt="Foto 3" class="img-fluid">
+        </div>
+        <!-- Imagen 4 -->
+        <div class="col-md-2">
+          <img src="imagenes_instituto/instituto/foto-4.jpg" alt="Foto 4" class="img-fluid">
+        </div>
+        <!-- Imagen 5 -->
+        <div class="col-md-2">
+          <img src="imagenes_instituto/instituto/foto-5.jpg" alt="Foto 5" class="img-fluid">
+        </div>
+        <!-- Imagen 6 -->
+        <div class="col-md-2">
+          <img src="imagenes_instituto/instituto/foto-6.jpg" alt="Foto 6" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    
+    <div class="container mt-5 mb-4">
+      <div class="row">
+        <!-- Imagen 1 -->
+        <div class="col-md-2">
+          <img src="imagenes_instituto/instituto/foto-7.jpg" alt="Foto 1" class="img-fluid">
+        </div>
+        <!-- Imagen 2 -->
+        <div class="col-md-2">
+          <img src="imagenes_instituto/instituto/foto-8.jpg" alt="Foto 2" class="img-fluid">
+        </div>
+        <!-- Imagen 3 -->
+        <div class="col-md-2">
+          <img src="imagenes_instituto/instituto/foto-9.jpg" alt="Foto 3" class="img-fluid">
+        </div>
+        <!-- Imagen 4 -->
+        <div class="col-md-2">
+          <img src="imagenes_instituto/instituto/foto-10.jpg" alt="Foto 4" class="img-fluid">
+        </div>
+        <!-- Imagen 5 -->
+        <div class="col-md-2">
+          <img src="imagenes_instituto/instituto/foto-11.jpg" alt="Foto 5" class="img-fluid">
+        </div>
+        <!-- Imagen 6 -->
+        <div class="col-md-2">
+          <img src="imagenes_instituto/instituto/foto-12.jpg" alt="Foto 6" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </section>
+<hr class="centered-hr border border-2 border-black">
+<section class="mensaje">
+    <div class="container text-center mt-5 mb-5" >
+        <h2 >Tecnicaturas Superiores<span class="text-success"> con validez nacional</span>  </h2>
+    </div>
+</section>
+
+<section class="estudios">
+    <div class="container">
+<div class="row">
+    <!--Primer Tarjeta-->
+    <div class="col-md-4">
+        <div class="card h-100 border-1 border-white ">
+            <img src="imagenes_instituto/tarjetas/informatica.jpg" class="card-soft" alt="Curso">
+          <div class="card-header text-white bg-success text-center py-2">
+            <h5 class="card-title mb-0">Tec. Sup. en Desarrollo de Software</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text justify-text">Explora el mundo de la innovación tecnológica. Aprende sobre herramientas avanzadas, programación y desarrollo de sistemas que transforman nuestra vida dia a dia.</p>
+            <p class="card-text justify-text"><i class="bi bi-calendar-event "style="font-size: 1rem; color: rgb(0, 156, 60);"></i> Inicia: Marzo de 2025</p>
+            <p class="card-text justify-text"><i class="bi bi-person-circle" style="font-size:  1rem; color: rgb(0, 156, 60);"></i> Cupos</p>
+            <p class="card-text justify-text"> <i class="bi-alarm" style="font-size: 1rem; color: rgb(0, 156, 60);"></i> 3 años</p>
+            <div class="card-body ms-5">
+            </div>
+            <a href="#" class="btn btn-outline-success w-100"> <i class="bi bi-file-earmark-code"></i> Ver Detalles</a>
+          </div>
+        </div>
+      </div>
+      <!--- SEGUNDA TARJETA -->
+      <div class="col-md-4">
+        <div class="card h-100 border-1 border-white ">
+            <img src="imagenes_instituto/carreras_fondos/fondo_laboratorio.jpg" class="card-idiomas" alt="Curso">
+          <div class="card-header text-white bg-success text-center py-2">
+            <h5 class="card-title mb-0">Tec. Sup. en Laboratorio de Análisis Clínicos</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text justify-text">Amplía tus horizontes con el aprendizaje de lenguas extranjeras, fortaleciendo habilidades comunicativas esenciales para un mundo globalizado.</p>
+            <p class="card-text justify-text"><i class="bi bi-calendar-event "style="font-size: 1rem; color: rgb(0, 156, 60);"></i> Inicia: Marzo de 2025</p>
+            <p class="card-text justify-text"><i class="bi bi-person-circle" style="font-size:  1rem; color: rgb(0, 156, 60);"></i> Cupos limitados</p>
+            <p class="card-text justify-text"> <i class="bi-alarm" style="font-size: 1rem; color: rgb(0, 156, 60);"></i> 3 años</p>
+            <div class="card-body ms-5">
+            </div>
+            <a href="#" class="btn btn-outline-success w-100"> <i class="bi bi-translate"></i> Ver Detalles</a>
+          </div>
+        </div>
+      </div>
+
+      <!--Tercer Tarjeta-->
+      <div class="col-md-4 col-lg-4">
+        <div class="card h-100 border-1 border-white ">
+            <img src="imagenes_instituto/carreras_fondos/fondo_enfermeria.jpg" class="card-salud" alt="Curso">
+          <div class="card-header text-white bg-success text-center py-2">
+            <h5 class="card-title mb-0">Tec. Sup. en Enfermeria</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text justify-text">Descubre cómo contribuir al bienestar de las personas a través de la enfermería,
+            la Tecnicatura  está dirigida a quienes deseen formarse como profesionales competentes en la atención integral de la salud</p>
+            <p class="card-text justify-text"><i class="bi bi-calendar-event "style="font-size: 1rem; color: rgb(0, 156, 60);"></i> Inicia: Marzo de 2025</p>
+            <p class="card-text justify-text"><i class="bi bi-person-circle" style="font-size:  1rem; color: rgb(0, 156, 60);"></i> Cupos limitados</p>
+            <p class="card-text justify-text"> <i class="bi-alarm" style="font-size: 1rem; color: rgb(0, 156, 60);"></i> 3 años</p>
+            <div class="card-body ms-5">
+            </div>
+            <a href="#" class="btn btn-outline-success w-100"> <i class="bi bi-heart-pulse"></i> Ver Detalles</a>
+          </div>
+        </div>
+      </div>
+</div> <!-- DIV QUE TERMINA LA FILA DE COLUMNAS O TARJETAS-->
+<br>
+<div class="row"> 
+
+    <div class="col-md-4 col-lg-4">
+        <div class="card h-100 border-1 border-white ">
+            <img src="imagenes_instituto/carreras_fondos/fondo_higiene_seguridad.jpg" class="card-finanzas" alt="Curso">
+          <div class="card-header text-white bg-success text-center py-2">
+            <h5 class="card-title mb-0">Tec. Sup. en Higiene y Seguridad en el Trabajo</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text justify-text"> Domina conceptos económicos y financieros clave para gestionar recursos y promover el crecimiento de empresas y proyectos.</p>
+            <p class="card-text justify-text"><i class="bi bi-calendar-event "style="font-size: 1rem; color: rgb(0, 156, 60);"></i> Inicia: Marzo de 2025</p>
+            <p class="card-text justify-text"><i class="bi bi-person-circle" style="font-size:  1rem; color: rgb(0, 156, 60);"></i> Cupos limitados</p>
+            <p class="card-text justify-text"> <i class="bi-alarm" style="font-size: 1rem; color: rgb(0, 156, 60);"></i> 3 años</p>
+            <div class="card-body ms-5">
+            </div>
+            <a href="#" class="btn btn-outline-success w-100"> <i class="bi bi-piggy-bank"></i> Ver Detalles</a>
+          </div>
+        </div>
+      </div>
+<div class="col-md-4 col-lg-4">
+    <div class="card h-100 border-1 border-white ">
+        <img src="imagenes_instituto/carreras_fondos/fondo_cocina.jpg" class="card-gastronomia" alt="Curso">
+      <div class="card-header text-white bg-success text-center py-2">
+        <h5 class="card-title mb-0"> Tec. Sup. en Cocina Regional y Cultura Alimentaria </h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text justify-text"> Sumérgete en el arte culinario, destacándote en la cocina regional y fusionando tradición con creatividad.</p>
+        <p class="card-text justify-text"><i class="bi bi-calendar-event "style="font-size: 1rem; color: rgb(0, 156, 60);"></i> Inicia: Marzo de 2025</p>
+        <p class="card-text justify-text"><i class="bi bi-person-circle" style="font-size:  1rem; color: rgb(0, 156, 60);"></i> Cupos</p>
+        <p class="card-text justify-text"> <i class="bi-alarm" style="font-size: 1rem; color: rgb(0, 156, 60);"></i> 3 años</p>
+        <div class="card-body ms-5">
+           
+
+        </div>
+        <a href="#" class="btn btn-outline-success w-100"> <i class="bi bi-cake"></i> Ver Detalles</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-lg-4">
+    <div class="card h-100 border-1 border-white ">
+        <img src="imagenes_instituto/carreras_fondos/fondo_periodismo.jpg" class="card-sociales" alt="Curso">
+      <div class="card-header text-white bg-success text-center py-2">
+        <h5 class="card-title mb-0">Tec. Sup. en Periodismo y Nuevas Tecnologías</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text justify-text">  Aprendé a crear contenido de valor y adaptarlo a los diferentes medios y plataformas de comunicación.</p>
+        <p class="card-text justify-text"><i class="bi bi-calendar-event "style="font-size: 1rem; color: rgb(0, 156, 60);"></i> Inicia: Marzo de 2025</p>
+        <p class="card-text justify-text"><i class="bi bi-person-circle" style="font-size:  1rem; color: rgb(0, 156, 60);"></i> Cupos</p>
+        <p class="card-text justify-text"> <i class="bi-alarm" style="font-size: 1rem; color: rgb(0, 156, 60);"></i> 3 años</p>
+        <div class="card-body ms-5">
+           
+
+        </div>
+        <a href="#" class="btn btn-outline-success w-100"> <i class="bi bi-book"></i> Ver Detalles</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<h3 class="text-center text-warning mt-4">Y muchas más!</h3>
+</section>
+
+<hr class="centered-hr-3 border border-2 border-black">
+<br>
+
+<section>
+<div class="col-12">
+  <h2 class="text-success text-center mb-5">Donde nos encontramos<img width="80" height="80" src="https://img.icons8.com/plasticine/100/question-mark.png" alt="question-mark"/></h2>
+</div>
+</section>
+
+
+
+
+<section class="locations py-3">
+  <div class="container">
+    <!-- Encabezado de pestañas -->
+    <ul class="nav nav-tabs justify-content-center mb-4" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="sede-principal-tab" data-bs-toggle="tab" href="#sede-principal" role="tab">Sede Principal</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="sede-monterrico-tab" data-bs-toggle="tab" href="#sede-monterrico" role="tab">Sede Monterrico</a>
+      </li>
+    </ul>
+
+    <div class="tab-content">
+      <!-- Sede Principal -->
+      <div class="tab-pane fade show active" id="sede-principal" role="tabpanel">
+        <div class="row">
+          <!-- Columna del mapa -->
+          <div class="col-lg-8">
+            <div class="card border-0 shadow mb-4">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3637.2294974136885!2d-65.23556002499352!3d-24.26871337832031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b077739c761db%3A0x4dbcb07ad6517b37!2sInstituto%20de%20Educaci%C3%B3n%20Superior%20%22Nuevo%20Horizonte%22!5e0!3m2!1ses-419!2sar!4v1732925487376!5m2!1ses-419!2sar" 
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" class="rounded">
+              </iframe>
+            </div>
+          </div>
+
+          <!-- Columna del horario -->
+          <div class="col-lg-4">
+            <div class="card border-0 shadow mb-4">
+              <div class="card-body">
+                <h5 class="card-title text-success text-center">Horarios de Atención</h5>
+                <p><strong>Lunes a Viernes:</strong> 8:00 AM - 6:00 PM</p>
+                <p><strong>Sábado:</strong> 9:00 AM - 1:00 PM</p>
+                <p><strong>Dirección:</strong> Manuel Castellanos 323</p>
+                <p><strong>Teléfono:</strong> (123) 456-7890</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sede Monterrico -->
+      <div class="tab-pane fade" id="sede-monterrico" role="tabpanel">
+        <div class="row">
+          <!-- Columna del mapa -->
+          <div class="col-lg-8">
+            <div class="card border-0 shadow mb-4">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.64151216176!2d-65.18421282498814!3d-24.428518778213725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bade79a1f1f1d%3A0xe8a4d37b1111c274!2sInstituto%20de%20Educaci%C3%B3n%20Superior%20%22Nuevo%20Horizonte%22%20-%20Anexo%20Monterrico!5e0!3m2!1ses-419!2sar!4v1732932621284!5m2!1ses-419!2sar" 
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" class="rounded">
+              </iframe>
+            </div>
+          </div>
+
+          <!-- Columna del horario -->
+          <div class="col-lg-4">
+            <div class="card border-0 shadow mb-4">
+              <div class="card-body">
+                <h5 class="card-title text-success text-center">Horarios de Atención</h5>
+                <p><strong>Lunes a Viernes:</strong> 8:00 AM - 6:00 PM</p>
+                <p><strong>Sábado:</strong> 9:00 AM - 1:00 PM</p>
+                <p><strong>Dirección:</strong> Calle Ejemplo 456</p>
+                <p><strong>Teléfono:</strong> (987) 654-3210</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--FORMULARIO DE CONTACTO-->
+<section id="contacto" class="py-5 bg-light ">
+  <div class="container col-12 col-sm-10 col-md-9 d-flex flex-column align-items-center">
+    <h3 class="text-success mb-4">¿Te gustaria saber más? Envíenos un mensaje</h3>
+    <hr class="w-100">
+
+    <form class="col-12 col-md-10">
+      <!-- Campo Nombre -->
+      <div class="mb-3 row align-items-center">
+        <label for="user-name" class="col-sm-4 col-md-3 col-lg-2 col-form-label">Nombre</label>
+        <div class="col-sm-8 col-md-9 col-lg-10">
+          <div class="input-group">
+            <span class="input-group-text">
+              <i class="fa fa-user"></i>
+            </span>
+            <input type="text" class="form-control" id="user-name" placeholder="Nombre">
+          </div>
+        </div>
+      </div>
+
+      <!-- Campo Apellido -->
+      <div class="mb-3 row align-items-center">
+        <label for="user-surname" class="col-sm-4 col-md-3 col-lg-2 col-form-label">Apellido</label>
+        <div class="col-sm-8 col-md-9 col-lg-10">
+          <div class="input-group">
+            <span class="input-group-text">
+              <i class="fa fa-user"></i>
+            </span>
+            <input type="text" class="form-control" id="user-surname" placeholder="Apellido">
+          </div>
+        </div>
+      </div>
+
+      <!-- Campo Email -->
+      <div class="mb-3 row align-items-center">
+        <label for="email" class="col-sm-4 col-md-3 col-lg-2 col-form-label">E-mail</label>
+        <div class="col-sm-8 col-md-9 col-lg-10">
+          <div class="input-group">
+            <span class="input-group-text">
+              <i class="fa fa-envelope"></i>
+            </span>
+            <input type="email" class="form-control" id="email" placeholder="Dirección de correo">
+          </div>
+        </div>
+      </div>
+
+      <!-- Campo Teléfono -->
+      <div class="mb-3 row align-items-center">
+        <label for="number" class="col-sm-4 col-md-3 col-lg-2 col-form-label">Teléfono</label>
+        <div class="col-sm-8 col-md-9 col-lg-10">
+          <div class="input-group">
+            <span class="input-group-text">
+              <i class="fa fa-phone"></i>
+            </span>
+            <input type="tel" class="form-control" id="number" placeholder="+388 48 555 552">
+          </div>
+        </div>
+      </div>
+
+      <!-- Campo Mensaje -->
+      <div class="mb-4 row align-items-center">
+        <label for="message" class="col-sm-4 col-md-3 col-lg-2 col-form-label">Descripción</label>
+        <div class="col-sm-8 col-md-9 col-lg-10">
+          <div class="input-group">
+            <span class="input-group-text">
+              <i class="fa fa-pencil"></i>
+            </span>
+            <textarea class="form-control" rows="3" placeholder="Mensaje" id="message"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botón Enviar -->
+      <div class="text-center">
+        <button type="submit" class="btn btn-warning">
+          Enviar
+          <i class="fa fa-paper-plane"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+</main>
+<footer>
+  <section class="bg-success text-white pt-4 pb-4">
+      <div class="container">
+          <div class="row">
+              <!-- Logo y Dirección -->
+              <div class="col-md-3 text-center">
+                  <img src="imagenes_instituto/encabezado/logo_instituto_modificado.jpg" alt="Logo del Instituto" class="pie-pagina mb-3" style="width: 80px; height: 80px;">
+                  <h5>Manuel Castellanos 323 Esquina Idelfonso Maria de la Paz B° 47 Hectareas</h5>
+                  <p>Barrio Alto Comedero, Jujuy, Argentina</p>
+              </div>
+
+              <!-- Enlaces Rápidos -->
+              <div class="col-md-3">
+                  <h5>Enlaces Rápidos</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="index.html" class="text-white text-decoration-none">Inicio</a></li>
+                      <li><a href="instituto.html" class="text-white text-decoration-none">El Instituto</a></li>
+                      <li><a href="inscripciones.html" class="text-white text-decoration-none">Inscripciones</a></li>
+                      
+                  </ul>
+              </div>
+
+              <!-- Contacto -->
+              <div class="col-md-3">
+                  <h5>Contacto</h5>
+                  <p><i class="fas fa-phone"></i> Teléfono: (388) 123-4567</p>
+              </div>
+
+              <!-- Redes Sociales -->
+              <div class="col-md-3 text-center">
+                  <h5>Redes sociales</h5>
+                  <a href="https://www.facebook.com/InstitutoDeEducacionSuperiorNuevoHorizonte"target="_blank" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                  <a href="#" class="text-white me-3" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                  <a href="#" class="text-white me-3" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+              </div>
+          </div>
+
+          <!-- Línea divisoria -->
+          <hr class="bg-light">
+
+          <!-- Pie de página inferior -->
+          <div class="text-center">
+              <p class="mb-0">© 2024 Instituto de Educacion Nuevo Horizonte. Todos los derechos reservados.</p>
+          </div>
+      </div>
+  </section>
+</footer>
+
+<!-- BOTON DE WHATSAPP-->
+<div id="whatsapp-button"></div>
+<script src="java.js"></script> <!-- Vincular el JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+<!--
+<div class="container my-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="curso.jpg" class="card-img-top" alt="Curso">
+          <div class="card-body">
+            <h5 class="card-title">Título del Curso</h5>
+            <p class="card-text">Breve descripción del curso.</p>
+            <a href="#" class="btn btn-primary">Más Información</a>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+ -->
+  <!--
+ 
+ 
+ 
+  
+   <section>
+    <div class="container my-5">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card h-100 border-1 border-white ">
+                <img src="imagenes_instituto/tarjetas/informatica.jpg" class="card-img-top" alt="Curso">
+              <div class="card-header text-white bg-success text-center py-2">
+                <h5 class="card-title mb-0">Tecnologia</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text justify-text">Explora el mundo de la innovación tecnológica. Aprende sobre herramientas avanzadas, programación y desarrollo de sistemas que transforman nuestra vida diaria.</p>
+                <div class="card-body ms-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0,0,256,256">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="translate(-41.04879,80.85504) rotate(-30) scale(5.33333,5.33333)"><path d="M41,5h-34l3,34l14,4l14,-4l3,-34z" fill="#e65100"></path><path d="M24,8v31.9l11.2,-3.2l2.5,-28.7z" fill="#ff6d00"></path><path d="M24,25v-4h8.6l-0.7,11.5l-7.9,2.6v-4.2l4.1,-1.4l0.3,-4.5zM32.9,17l0.3,-4h-9.2v4z" fill="#ffffff"></path><path d="M24,30.9v4.2l-7.9,-2.6l-0.4,-5.5h4l0.2,2.5zM19.1,17h4.9v-4h-9.1l0.7,12h8.4v-4h-4.6z" fill="#eeeeee"></path></g></g>
+                        </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                                <path fill="#f7df1e" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538,32.947c0.692,1.124,1.444,2.201,3.037,2.201c1.338,0,2.04-0.665,2.04-1.585 c0-1.101-0.726-1.492-2.198-2.133l-0.807-0.344c-2.329-0.988-3.878-2.226-3.878-4.841c0-2.41,1.845-4.244,4.728-4.244 c2.053,0,3.528,0.711,4.592,2.573l-2.514,1.607c-0.553-0.988-1.151-1.377-2.078-1.377c-0.946,0-1.545,0.597-1.545,1.377 c0,0.964,0.6,1.354,1.985,1.951l0.807,0.344C36.452,29.645,38,30.839,38,33.523C38,36.415,35.716,38,32.65,38 c-2.999,0-4.702-1.505-5.65-3.368L29.538,32.947z M17.952,33.029c0.506,0.906,1.275,1.603,2.381,1.603 c1.058,0,1.667-0.418,1.667-2.043V22h3.333v11.101c0,3.367-1.953,4.899-4.805,4.899c-2.577,0-4.437-1.746-5.195-3.368 L17.952,33.029z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                                    <path fill="#F44336" d="M23.65,24.898c-0.998-1.609-1.722-2.943-2.725-5.455C19.229,15.2,31.24,11.366,26.37,3.999c2.111,5.089-7.577,8.235-8.477,12.473C17.07,20.37,23.645,24.898,23.65,24.898z"></path><path fill="#F44336" d="M23.878,17.27c-0.192,2.516,2.229,3.857,2.299,5.695c0.056,1.496-1.447,2.743-1.447,2.743s2.728-0.536,3.579-2.818c0.945-2.534-1.834-4.269-1.548-6.298c0.267-1.938,6.031-5.543,6.031-5.543S24.311,11.611,23.878,17.27z"></path><g><path fill="#1565C0" d="M32.084 25.055c1.754-.394 3.233.723 3.233 2.01 0 2.901-4.021 5.643-4.021 5.643s6.225-.742 6.225-5.505C37.521 24.053 34.464 23.266 32.084 25.055zM29.129 27.395c0 0 1.941-1.383 2.458-1.902-4.763 1.011-15.638 1.147-15.638.269 0-.809 3.507-1.638 3.507-1.638s-7.773-.112-7.773 2.181C11.683 28.695 21.858 28.866 29.129 27.395z"></path><path fill="#1565C0" d="M27.935,29.571c-4.509,1.499-12.814,1.02-10.354-0.993c-1.198,0-2.974,0.963-2.974,1.889c0,1.857,8.982,3.291,15.63,0.572L27.935,29.571z"></path><path fill="#1565C0" d="M18.686,32.739c-1.636,0-2.695,1.054-2.695,1.822c0,2.391,9.76,2.632,13.627,0.205l-2.458-1.632C24.271,34.404,17.014,34.579,18.686,32.739z"></path><path fill="#1565C0" d="M36.281,36.632c0-0.936-1.055-1.377-1.433-1.588c2.228,5.373-22.317,4.956-22.317,1.784c0-0.721,1.807-1.427,3.477-1.093l-1.42-0.839C11.26,34.374,9,35.837,9,37.017C9,42.52,36.281,42.255,36.281,36.632z"></path><path fill="#1565C0" d="M39,38.604c-4.146,4.095-14.659,5.587-25.231,3.057C24.341,46.164,38.95,43.628,39,38.604z"></path></g>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0,0,256,256">
+                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="translate(165.68574,-51.40467) rotate(60) scale(5.33333,5.33333)"><path d="M41,5h-34l3,34l14,4l14,-4l3,-34z" fill="#0277bd"></path><path d="M24,8v31.9l11.2,-3.2l2.5,-28.7z" fill="#039be5"></path><path d="M33.1,13h-9.1v4h4.9l-0.3,4h-4.6v4h4.4l-0.3,4.5l-4.1,1.4v4.2l7.9,-2.6l0.7,-11.5v0z" fill="#ffffff"></path><path d="M24,13v4h-8.9l-0.3,-4zM19.4,21l0.2,4h4.4v-4zM19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1,-1.4z" fill="#eeeeee"></path></g></g>
+                                        </svg>
+
+                </div>
+                <a href="#" class="btn btn-outline-success w-100"> <i class="bi bi-file-earmark-code"></i> Ver Detalles</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   </section>
+</section>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- COSAS QUE HABIA BORRADO PERO NO -->
+   <!--
+    
+  <div class="col-6 col-md-12 col-lg-4 mb-3">
+    <div class="card text-black text-center bg-car1 pb-2"  >
+        <div class="card-body">
+            <h3 class="card-title">Finanzas</h3>
+            <p class="justify-text">
+                Domina conceptos económicos y financieros clave para gestionar recursos y promover el crecimiento de empresas y proyectos.
+
+
+            </p>
+            <button class="btn bg-success text-white" id="boton"> <i class="bi bi-piggy-bank"></i> Saber más</button>
+
+        </div>
+    </div>
+</div>
+-->
+
+<!--
+<section>
+<div class="row">
+  <div class="col-6 col-md-6 col-lg-4 mb-3 ms-5">
+    <div class="card text-black text-center bg-car2 pb-2"  >
+        <div class="card-body">
+            <h3 class="card-title text-warning">Sobre Nosotros</h3>
+            <p class="justify-text">Somos una Institución dedicada a la educación de nivel inicial, primario, secundario, terciario y formación profesional con el fin de formar personas capaces y con aptitudes necesarias para colaborar en la comunidad de manera que se refuercen los valores de educación y trabajo. 
+            </p>
+            <p class="justify-text">
+                Somos un instituto pluralista, entendiendo por pluralismo la conciencia de que la humanidad pertenece a diferentes razas, lenguas, culturas y edades, como así también el consenso sobre la absoluta necesidad de convivencia pacífica y respetuosa de todos los grupos humanos, minoritarios o mayoritarios.
+Nuestro nombre "Integral" es la marca que nos representa, nos otorga singularidad, revelando algunos aspectos de nuestro ser:
+
+Integral por integridad, como totalidad en la concepción de las personas.
+Integral porque aspiramos a formar personas íntegras.
+Integral por entereza que se forja a partir de la formación en valores.
+Integral porque aspiramos a formar personas, no sólo en lo académico, capaces de convivir con las pequeñas y grandes diferencias que nos caracterizan como humanos.
+Integral por probidad, entendida como honestidad para con uno mismo y con los demás.
+            </p>
+        </div>
+    </div>
+</div>
+ <div class="col-3">
+<img src="Imagenes/carrera1.jpg" alt="">
+
+ </div>
+ <div class="col-3">
+<img src="Imagenes/carrera1.jpg" alt="">
+ </div>
+</div>
+
+</section>
+-->
+<!--
+  
+<div class="col-12 ">
+    <div class="container">
+        <div class="clearfix justify-text">
+            <img src="imagenes_instituto/instituto/frente_instituto.jpg" class="col-md-4 float-md-end mb-3 ms-md-3" alt="...">
+          
+            <p>
+                Somos una Institución dedicada a la educación de nivel inicial, primario, secundario, terciario y formación profesional con el fin de formar personas capaces y con aptitudes necesarias para colaborar en la comunidad de manera que se refuercen los valores de educación y trabajo. 
+
+            </p>
+          
+            <p>
+              As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+            </p>
+          
+            <p>
+              And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+            </p>
+          </div>
+
+    </div>
+</div>
+-->
+
+<!--
+  
+    <div id="carouselExampleFade" class="carousel slide carousel-fade animate__animated animate__zoomIn" data-bs-ride="carousel" >
+        <div class="carousel-inner">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+            
+       
+          <div class="carousel-item active"  data-bs-interval="10000" >
+            <img src="ejemplo/diplomas-egresados.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>Desarrola tu futuro con nosotros , capacitate, mejora y pensa </h2>
+              </div>
+             
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="ejemplo/Fotos pagina web.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagenes_css/img/car3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    -->
+
+
+

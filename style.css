@@ -1,0 +1,506 @@
+.body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#boton-caro{
+margin-bottom: 1px;
+margin-right: 500px;
+
+}
+
+.logo{
+    width: 50px; /* Ancho */
+    height: auto;
+    margin-right: 12px;
+}
+.justify-text {
+    text-align: justify;
+}
+/* LINEAS DE INICIO */
+.centered-hr {
+    width: 50%; /* Ajusta el ancho de la línea */
+    border: 1px solid #ccc; /* Define el estilo de la línea */
+    margin: 20px auto; /* Centra horizontalmente y añade margen vertical */
+}
+.centered-hr-1{
+
+    width: 30%; /* Ajusta el ancho de la línea */
+    border: 1px solid #ccc; /* Define el estilo de la línea */
+    margin: 20px auto; /* Centra horizontalmente y añade margen vertical */
+
+
+}
+
+
+/* TARJETA DE INICIO*/
+.tarjeta-bienvenida {
+  max-width: 90%;
+  padding: 1rem;
+}
+
+@media (max-width: 576px) {
+  .tarjeta-bienvenida {
+    max-width: 80%;
+    font-size: 0.9rem;
+  }
+}
+
+.card-header {
+    border: none; /* Sin bordes adicionales */
+}
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+  }
+
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-header {
+  font-weight: bold;
+ 
+  border: none;
+}
+
+.btn-outline-success {
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/*Estilos de tarjetas excepto la primera*/
+.card-soft{
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+.card-salud{
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-idiomas{
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 180px;
+  width: 100%;
+}
+.card-finanzas {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; 
+}
+.card-gastronomia{
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-sociales{
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; 
+}
+.logo1{
+
+  height: 600px;
+  width: 350px;
+
+
+}
+
+.centered-hr-3{
+
+
+  width: 60%; /* Ajusta el ancho de la línea */
+  margin: 20px auto;
+  
+
+}
+.centered-hr-4{
+
+  width: 100%; /* Ajusta el ancho de la línea */
+  margin: 20px auto;
+
+
+}
+.pie-pagina{
+
+  width: 40px; /* Ancho */
+    height: auto;
+    margin-right: 12px;
+
+
+}
+/* PIE DE PAGINA*/
+
+
+
+/* BOTON DE WHATSAPP */
+/* Estilo del botón flotante */
+#whatsapp-button {
+  position: fixed;
+  bottom: 20px; /* Distancia desde el borde inferior */
+  right: 20px;  /* Distancia desde el borde derecho */
+  z-index: 1000; /* Por encima de otros elementos */
+}
+
+#whatsapp-button img {
+  width: 60px; /* Tamaño del botón */
+  height: 60px;
+  border-radius: 50%; /* Hacer el ícono redondo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agregar sombra */
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Efecto suave al pasar el mouse */
+  animation: pulse 1.5s infinite; /* Aquí se vincula la animación 'pulse' */
+    transition: transform 0.3s ease;
+}
+
+#whatsapp-button img:hover {
+  transform: scale(1.1); /* Zoom al pasar el mouse */
+}
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+      transform: scale(1.1);
+      box-shadow: 0 6px 12px rgba(0, 255, 0, 0.4); /* Efecto verde brillante */
+  }
+  100% {
+      transform: scale(1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+/*CSS DE LA TARJETA DE INICIO */
+.custom-container {
+  height: 800px; /* Ajusta la altura que necesites */
+  overflow: hidden; /* Opcional, para evitar desbordamientos */
+}
+
+.custom-container img {
+  object-fit: cover; /* Asegura que la imagen se ajuste sin deformarse */
+  height: 100%; /* La imagen se adapta a la altura del contenedor */
+}
+/*Animacion del SCROLL  */
+/* 
+<section class="locations py-5">
+  <div class="container">
+    <div class="row mb-5">
+      <!-- Columna del mapa principal -->
+      <div class="col-md-8">
+        <div class="card border-0 shadow">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3637.2294974136885!2d-65.23556002499352!3d-24.26871337832031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b077739c761db%3A0x4dbcb07ad6517b37!2sInstituto%20de%20Educaci%C3%B3n%20Superior%20%22Nuevo%20Horizonte%22!5e0!3m2!1ses-419!2sar!4v1732925487376!5m2!1ses-419!2sar" 
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade" class="rounded">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Columna de horarios -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow bg-light">
+          <div class="card-body text-center">
+            <h5 class="card-title text-success">Horarios de Atención</h5>
+            <p>Lunes a Viernes: <strong>8:00 AM - 6:00 PM</strong></p>
+            <p>Sábado: <strong>9:00 AM - 1:00 PM</strong></p>
+            <p><strong>Dirección:</strong> Llame al (123) 456-7890</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <h2 class="text-success mb-4">Nuestra sede en Monterrico 
+        <img src="https://img.icons8.com/plasticine/100/question-mark.png" alt="question-mark" width="80">
+      </h2>
+    </div>
+
+    <div class="row">
+      <!-- Columna del mapa Monterrico -->
+      <div class="col-md-8">
+        <div class="card border-0 shadow">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.64151216176!2d-65.18421282498814!3d-24.428518778213725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bade79a1f1f1d%3A0xe8a4d37b1111c274!2sInstituto%20de%20Educaci%C3%B3n%20Superior%20%22Nuevo%20Horizonte%22%20-%20Anexo%20Monterrico!5e0!3m2!1ses-419!2sar!4v1732932621284!5m2!1ses-419!2sar" 
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade" class="rounded">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Columna de horarios -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow bg-light">
+          <div class="card-body text-center">
+            <h5 class="card-title text-success">Horarios de Atención</h5>
+            <p>Lunes a Viernes: <strong>8:00 AM - 6:00 PM</strong></p>
+            <p>Sábado: <strong>9:00 AM - 1:00 PM</strong></p>
+            <p><strong>Dirección:</strong> Llame al (123) 456-7890</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+*/
+/*   estilos de formulario*/
+textarea {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+.wrap{
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.box{
+	font-size: 1.2em;
+	line-height: 1.6em;
+  text-align: center;
+}
+@media all and (max-width: 1180px){
+	.wrap{
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	}
+}
+
+
+#section h2{
+	margin-bottom: 50px;
+  position: relative;
+  display: block;
+}
+#section p a{
+	color: #00B16A;
+  text-decoration: none;
+}
+#section .wrap {
+	text-align: center;
+	width: 100%;
+}
+#section .box{
+	text-align: center;
+	margin: 5% 0 0 0;
+	width: 100%;
+}
+
+.contact-form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 40px;
+}
+.contact-form .input-block {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 60px;
+  border-bottom: 2px solid #00b16a;
+  margin: 0;
+  position: relative;
+  margin-bottom: 20px;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.contact-form .input-block.textarea {
+  height: auto;
+}
+.contact-form .input-block.textarea .form-control {
+  height: auto;
+  resize: none;
+}
+.contact-form .input-block label {
+  position: absolute;
+  left: 10px;
+  top: 25px;
+  display: block;
+  margin: 0;
+  font-weight: 400;
+  z-index: 1;
+  color: #aaa;
+  font-size: 18px;
+  line-height: 10px;
+}
+.contact-form .input-block .form-control {
+  background-color: transparent;
+  margin: 0;
+  outline: none;
+  border: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: auto;
+    padding: 30px 10px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  font-size: 18px;
+  color: #333;
+}
+.contact-form .input-block .form-control:focus label {
+  top: 0;
+}
+.contact-form .square-button {
+  background-color: #00B16A;
+  color: #fff;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 0 60px;
+  height: 60px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 100%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.contact-form .square-button:hover, .contact-form .square-button:focus {
+  background-color: #66CC99;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  transform: translateY(-4px);
+}
+
+@media (min-width: 768px) {
+  .contact-wrap {
+    margin: auto;
+  }
+}
+@media (max-width: 868px) {
+	.contact-form {
+	  width: 100%;
+	  padding: 40px;
+	}
+}
+@media (max-width: 568px) {
+	.contact-form {
+	  padding: 10px;
+	}
+}
+
+
+.contact-wrap {
+  padding: 15px;
+  background: #ecf0f1;
+}
+.contact-wrap h1 {
+  background-color: white;
+  color: #ff7c62;
+  padding: 40px;
+  margin: 0 0 50px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+.contact-wrap h1 small {
+  font-size: 18px;
+  display: block;
+  text-transform: none;
+  font-weight: 300;
+  margin-top: 10px;
+  color: #ff7c62;
+}
+/* FIN DE INICIO/INDEX*/
+/* CAROUSEL DE CARRERAS INFORMATICA*/
+.container-informatica .carousel-item {
+max-height: 400px;
+object-fit: cover;
+}
+.container-informatica .carousel-item img{
+max-height: 400px;
+object-fit: cover;
+}
+/*CAROUSEL DE SALUD*/
+.container-salud .carousel-item{
+  max-height: 400px;
+}
+.container-salud .carousel-item img{
+  max-height: 400px;
+}
+/* ACORDION DE CARRERAS*/
+.accordion-button:not(.collapsed) {
+  background-color: #10cd55; /* Cambia este color por el que prefieras */
+  color: white; /* Cambia el color del texto si es necesario */
+}
+.accordion-button {
+  background-color: #d9534f; /* Fondo cuando está cerrado, puedes cambiarlo */
+  color: white;
+}
+/* FACHA*/
+.instituto-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.instituto-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.news-carousel img {
+  height: 300px;
+  object-fit: cover;
+}
+.category-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
+
+
+
+/* ANIMACION DE SCROLL DE LA PAGINA*/
+
+
+
